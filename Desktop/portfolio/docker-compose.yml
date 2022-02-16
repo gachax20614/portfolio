@@ -1,0 +1,27 @@
+version: '2'
+services:
+ web:
+   build: .
+   volumes:
+      - .:/var/www/html
+   ports:
+      - "3080:80"
+   depends_on:
+    - db
+
+ mail:
+   platform: linux/x86_64
+   image: kanemu/maildev-with-iconv
+   ports:
+      - "1080:80"
+      - "3025:25" #テスト用SMTPポート
+   depends_on:
+    - db
+
+ db:
+  platform: linux/x86_64
+  image: mysql:8.0
+  volumes:
+    - ./mysql:/var/lib/mysql
+  environment:
+    - MYSQL_ROOT_PASSWORD=secret
