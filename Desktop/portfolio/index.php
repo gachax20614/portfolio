@@ -19,7 +19,7 @@ session_start();
 </head>
 <body>
 <?php include('./partsfolder/header.php') ?>
-<div class="title_pc">
+<div class="title">
   <h1>
     <span class="gachax">gachax</span>
     <span class="design">Design</span>
@@ -28,17 +28,13 @@ session_start();
 </div>
 <main>
   <div class="main_v">
-    <img src="img/desk.jpeg" alt="机に置かれたPCの写真">
+    <img src="img/desk.jpg" alt="机に置かれたPCの写真">
   </div>
 </main>
-<section id="#about">
-  <div class="section_title">
+<section id="about">
+  <div>
     <h2 class="a_heading">About</h2>
   </div>
-  <div class="about_item">
-    <div class="about_img">
-      <img src="" alt="">
-    </div>
     <div class="about_txt">
       <p>この度は、当サイトにご来訪いただき、<br>
          ありがとうございます。<br></p>
@@ -53,12 +49,62 @@ session_start();
       <span class="emphasis">ぜひ、私に聞かせてください！<br>
             お客さまの想いを創造するお手伝いを<br>
             させてください！</span>
-        
-    </div>
-    
-  </div>
-</section>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK" crossorigin="anonymous"></script>
-<script src="./js/script.js"></script>
-</body>
-</html>
+      </div>
+      <div>
+        <h2 class="p_heading">Profile</h2>
+      </div>
+      <div class="profile_item">
+        <div class="profile_txt">
+          <p class="profile_name">gachax(ガチャックス) 本名:緒方正人</p>
+          <p class="profile_info">前職で『うつ病』を発症。休職中に元同僚から誘われ、<br>独学でプログラミング学習開始。<br>
+          架空サイト制作等を行いながら、日々スキルアップに<br>取り組んでおります。<br>
+          『<span class="emphasis">ひとを想い、想いをかたちにする</span>』<br>をモットーにweb制作に取り組みます！</p>
+          <p class="profile_info_sp">前職で『うつ病』を発症。休職中に元同僚から<br>誘われ,独学でプログラミング学習開始。<br>
+          架空サイト制作等を行いながら、<br>日々スキルアップに取り組んでおります。<br>
+          『<span class="emphasis">ひとを想い、想いをかたちにする</span>』<br>をモットーにweb制作に取り組みます！</p>
+          <div class="twitter_icon">
+            <a href="https://twitter.com/gachax20614" target="_blank"><img src="./img/twitter.svg" alt=""></a>
+            </div>
+          </div>
+        </div>
+        <h2 class="s_heading">Skill</h2>
+        <ul class="skill_box">
+          <li class="skill_item"><img src="./img/html-5.svg" alt=""></li>
+          <li class="skill_item"><img src="./img/css-3.svg" alt=""></li>
+          <li class="skill_item"><img src="./img/javascript.svg" alt=""></li>
+          <li class="skill_item"><img src="./img/php.svg" alt=""></li>
+        </ul>
+      </section>
+      <section id="work">
+        <div>
+          <h2 class="w_heading">Work</h2>
+        </div>
+        <div class="inner">
+          <div class="work_list">
+            <a class="work_item" href="./partsfolder/work_it.php">
+              <p class="work_img"><img src="./img/IT-network.jpg" alt="制作品の写真"></p>
+              <p class="work_name">IT-Network(架空サイト)</p>
+              <p class="work_info">Design/Coding(スマホ対応)</p>
+            </a>
+            <a class="work_item" href="./partsfolder/work_gdl.php">
+              <p class="work_img"><img src="./img/gdl.jpg" alt="制作品の写真"></p>
+              <p class="work_name">gachax portfolio(当サイト)</p>
+              <p class="work_info">Design/Coding(スマホ対応)</p>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div>
+          <h2 class="c_heading">Contact</h2>
+          <h3>＊全項目入力必須です</h3>
+        </div>
+       <?php include('./contact_form/form.php') ?>
+      </section>
+      <footer class="site_footer">
+        <p>©︎ 2022 gachax portfolio</p>
+      </footer>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK" crossorigin="anonymous"></script>
+      <script src="./js/script.js"></script>
+    </body>
+    </html>
