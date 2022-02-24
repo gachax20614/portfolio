@@ -76,7 +76,7 @@ session_destroy();
 ?>
 <body class="send_body">
   <?php if($isSend): ?>
-    <p>ご確認のため、お問い合わせ内容が【<?php echo h($_SESSION['e-mail']); ?>】宛にメールで送信されました。</p>
+    <p>ご確認のため、お問い合わせ内容が<br>【<?php echo h($_SESSION['e-mail']); ?>】<br>宛にメールで送信されました。</p>
     <div class="send_txt">
       <p>お問い合わせ、ありがとうございます！</p>
     </div>
