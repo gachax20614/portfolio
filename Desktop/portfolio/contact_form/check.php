@@ -46,18 +46,18 @@ function formValidation($postData) {
 
   // 必須項目チェック対象指定
   $requiredCheck = array(
-    'NAME' => $postData['name'],
-    'E-MAIL' => $postData['e-mail'],
-    'MESSAGE' => $postData['message']
+    'お名前' => $postData['name'],
+    'メールアドレス' => $postData['e-mail'],
+    'お問い合わせ内容' => $postData['message']
   );
 
   // 名前チェック対象指定
   $doubleByteCheck = array(
-    'NAME' => $postData['name']
+    'お名前' => $postData['name']
   );
   // メールアドレスフォーマットチェック対象指定
   $emailFormatCheck = array(
-    'E-MAIL' => $postData['e-mail']
+    'メールアドレス' => $postData['e-mail']
   );
 
   // 必須項目バリデートチェック
@@ -103,11 +103,16 @@ if(empty($validateErrors)) {
 <?php endif; ?>
 <body class="check_body">
   <form method="post" action="./send.php">
+    <h1 class="check_title">※お間違いないですか？</h1>
     <div class="check-txt">
       <p>お名前</p>
-      <?php echo htmlspecialchars($_POST['name'], ENT_QUOTES, 'UTF-8'); ?>
+      <div class="c_emphasis">
+        <?php echo htmlspecialchars($_POST['name'], ENT_QUOTES, 'UTF-8'); ?>
+      </div>
       <p>メールアドレス</p>
-      <?php echo htmlspecialchars($_POST['e-mail'], ENT_QUOTES, 'UTF-8'); ?>
+      <div class="c_emphasis">
+        <?php echo htmlspecialchars($_POST['e-mail'], ENT_QUOTES, 'UTF-8'); ?>
+      </div>
       <p>お問い合わせ内容</p>
       <textarea cols="30" rows="10">
         <?php echo htmlspecialchars($_POST['message'], ENT_QUOTES, 'UTF-8'); ?>

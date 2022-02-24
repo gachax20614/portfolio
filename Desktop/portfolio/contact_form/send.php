@@ -76,9 +76,12 @@ session_destroy();
 ?>
 <body class="send_body">
   <?php if($isSend): ?>
-    <p>フォーム内容が【<?php echo h($_SESSION['e-mail']); ?>】宛にメールで送信されました。</p>
-    <?php else: ?>
-      <p>送信エラー:メールフォームからの送信に失敗しました。お手数ですが再度お試しください。</p>
-      <?php endif; ?>
+    <p>ご確認のため、お問い合わせ内容が【<?php echo h($_SESSION['e-mail']); ?>】宛にメールで送信されました。</p>
+    <div class="send_txt">
+      <p>お問い合わせ、ありがとうございます！</p>
+    </div>
+      <?php else: ?>
+        <p>送信エラー:メールフォームからの送信に失敗しました。お手数ですが再度お試しください。</p>
+        <?php endif; ?>
     </body>
     

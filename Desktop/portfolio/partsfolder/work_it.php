@@ -5,8 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="ようこそ！フリーランスgachaxのポートフォリオです。ホームページやランディングページ制作のお問合せはこちらから。">
-  <link rel="shortcut icon" href="img/mylogo.svg">
-  <title>gachax portforio</title>
+  <link rel="shortcut icon" href="../img/mylogo.svg">
+  <title> GDL|制作品紹介</title>
   <!-- css -->
   <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
