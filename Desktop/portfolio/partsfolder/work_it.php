@@ -22,9 +22,23 @@
       <img src="../img/IT-network.jpg" alt="制作品の写真">
     </div>
     <div class="work_main_txt">
+      <p class="work_title">サイト名:IT-Network</p>
       <p class="work_coment">新規事業架空サイトを制作しました。<br>
-                            HTML・CSS・jQueryを用いて、『ハンバーガーメニュー』を実装し、<br>
+                            HTML・CSS・jQueryを用いて<br>『固定ヘッダー』と『ハンバーガーメニュー』を実装し、<br>
                             PHPでコンタクトフォームの確認画面・送信完了画面を実装しました。</p>
+    <p class="work_coment_sp">新規事業架空サイトを制作しました。<br>
+                            HTML・CSS・jQueryを用いて<br>『ハンバーガーメニュー』を実装し、<br>
+                            PHPでコンタクトフォームの確認画面・送信完了画面<br>を実装しました。<br></p>
+    <p class="check_point">こだわった制作箇所</p>
+    <p class="check_point_txt">・TOPページは、セクションタイトルにヘッダーが被らないように<br>
+    工夫しました。<br>
+    ・下層ページ毎にデザインを変えたり、google mapを設置しました。</p>
+    <p class="check_point_txt_sp">・TOPページは、セクションタイトルに<br>
+    ヘッダーが被らないように工夫しました。<br>
+    ・下層ページ毎にデザインを変えたり、<br>
+    google mapを設置しました。</p>
+  <p class="work_time">制作期間</p>
+    <p>約３週間</p>
       <p class="url">URL</p>
     </div>
     </article>

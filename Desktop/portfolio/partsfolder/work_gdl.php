@@ -24,8 +24,22 @@
     <div class="work_main_txt">
       <p class="work_title">サイト名:gachax Design Lab</p>
       <p class="work_coment">自身のportfolioです。
-                             これまでに独学で学習してきたデザイン技法や、<br>
+                            これまでに独学で学習してきたデザイン技法や、<br>
                             新しく学習したデザイン技法を取り入れたサイトを制作しました。</p>
+      <p class="work_coment_sp">自身のportfolioです。<br>
+                            これまでに独学で学習してきたデザイン技法や、<br>
+                            新しく学習したデザイン技法を取り入れた<br>サイトを制作しました。</p>
+    <p class="check_point">こだわった制作箇所</p>
+    <p class="check_point_txt">・背景色にグラデーションを取り入れ、サイトを『ふんわり』表示させて
+                              <br>【やわらかい】印象を表現しました。<br>
+                              ・タイトルやセクション名、メニュー表示名に『手書きフォント』を使用し、<br>
+                              【POP感】を表現しました。</p>
+    <p class="check_point_txt_sp">・背景色にグラデーションを取り入れ、<br>サイトを『ふんわり』表示させて
+                              【やわらかい】印象を<br>表現しました。<br>
+                              ・タイトルやセクション名、メニュー表示名に<br>『手書きフォント』を利用し、
+                              【POP感】を表現しました。</p>
+      <p class="work_time">制作期間</p>
+      <p>約３週間</p>
       <p class="url">URL</p>
     </div>
     </article>
