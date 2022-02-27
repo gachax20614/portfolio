@@ -81,16 +81,18 @@
   bottom: 0;
 }
 .nav_toggle.show span:nth-of-type(1) {
-  transform: translateY(10px) rotate(-45deg);
+  transform: translateY(10px) rotate(-46deg);
   background: white;
+  padding-top: 5px;
   z-index: 998;
 }
 .nav_toggle.show span:nth-of-type(2) {
   opacity: 0;
 }
 .nav_toggle.show span:nth-of-type(3) {
-  transform: translateY(-11px) rotate(45deg);
-  margin-bottom: 3.6px;
+  transform: translateY(-11px) rotate(47deg);
+  margin-bottom: 2px;
+  padding-top: 5px;
   background: white;
   z-index: 998;
 }
