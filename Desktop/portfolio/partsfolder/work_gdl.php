@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="ようこそ！フリーランスgachaxのポートフォリオです。ホームページやランディングページ制作のお問合せはこちらから。">
+  <meta name="description" content="gachaxのポートフォリオ｜制作紹介ページです。">
   <link rel="shortcut icon" href="../img/mylogo.svg">
   <title> GDL|制作品紹介</title>
   <!-- css -->

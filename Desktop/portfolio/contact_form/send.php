@@ -29,13 +29,13 @@ error_reporting(E_ALL ^ E_NOTICE);
 $sender = "メール差出人";
 
 // メール送信元
-$mailFrom = "it-network@example.com";
+$mailFrom = "webprogrammer.ogata@gmail.com";
 
 // メール送信先
-$replyTo = "info@example.com";
+$replyTo = "";
 
 // 管理者メールアドレス
-$adminEmail = "it-network@example.com";
+$adminEmail = "webprogrammer.ogata@gmail.com";
 
 // メールヘッダ設定
 $addHeader ="From:".mb_encode_mimeheader($sender)."<".$mailFrom.">\n";

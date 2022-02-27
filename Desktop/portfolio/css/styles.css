@@ -468,6 +468,12 @@ text-align: center;
 .site_footer {
   text-align: center;
 }
+.site_footer a {
+  font-weight: bold;
+}
+.site_footer p {
+  padding-top: 20px;
+}
 
 /* メディアクリ　スマホ向け */
 @media(max-width:767px) {

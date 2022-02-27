@@ -102,6 +102,7 @@ session_start();
        <?php include('./contact_form/form.php') ?>
       </section>
       <footer class="site_footer">
+        <a href="https://www.kiyac.app/privacypolicy/Bvln7vwyap5BIhQf81xh" target="_blank">プライバシーポリシー</a>
         <p>©︎ 2022 gachax portfolio</p>
       </footer>
       <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK" crossorigin="anonymous"></script>
